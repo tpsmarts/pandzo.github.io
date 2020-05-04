@@ -1,4 +1,4 @@
-let email = document.forms["form"]["email"];
+let email = document.forms["form"]["email"].value;
 
 
 function logMeIn(){
@@ -6,7 +6,6 @@ function logMeIn(){
 	alert('this is ' + email)
 	return false;
 }
-
 
 
 
