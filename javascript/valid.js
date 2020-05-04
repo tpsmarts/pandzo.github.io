@@ -1,8 +1,10 @@
-function logMeIn(){
-	let email = document.forms['form']['email'];
 
+let email = document.forms['form']['email'];
+
+
+function logMeIn(){
 	alert('this is' + email)
-	return true
+	return false;
 }
 
 
