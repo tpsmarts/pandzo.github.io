@@ -1,19 +1,28 @@
-	//Validtion Code For Inputs
+function logMeIn(){
+	let email = document.forms['form']['email'];
 
-var email = document.forms['form']['email'];
-var password = document.forms['form']['password'];
+	alert('this is' & email)
+	return true
+}
+
+
+
+
+
+
+
+
+
+//Validtion Code For Inputs
+
+
+//let password = document.forms['form']['password'];
 
 //var email_error = document.getElementById('email_error');
 //var pass_error = document.getElementById('pass_error');
 
 //email.addEventListener('textInput', emailVerify());
 //password.addEventListener('textInput', passVerify());
-
-function logMeIn(){
-	alert('this is')
-	return true
-}
-
 
 
 //function validated(){
