@@ -3,11 +3,11 @@
 var email = document.forms['form']['email'];
 var password = document.forms['form']['password'];
 
-var email_error = document.getElementById('email_error');
-var pass_error = document.getElementById('pass_error');
+//var email_error = document.getElementById('email_error');
+//var pass_error = document.getElementById('pass_error');
 
-email.addEventListener('textInput', emailVerify());
-password.addEventListener('textInput', passVerify());
+//email.addEventListener('textInput', emailVerify());
+//password.addEventListener('textInput', passVerify());
 
 function logMeIn(){
 	alert("this is" + email)
