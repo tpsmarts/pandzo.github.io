@@ -10,7 +10,7 @@ var password = document.forms['form']['password'];
 //password.addEventListener('textInput', passVerify());
 
 function logMeIn(){
-	alert('this is' + email)
+	alert('this is')
 }
 
 function emailVerify() {
