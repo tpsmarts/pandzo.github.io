@@ -1,8 +1,8 @@
 
-let email = document.forms['form']['email'];
+
 
 function logMeIn(){
-	
+	let email = document.forms['form']['email'];
 	alert('this is ' + email)
 	return false;
 }
