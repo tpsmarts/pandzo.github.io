@@ -1,4 +1,4 @@
-let email = document.forms["form"]["email"].value;
+let email = document.forms["form"]["email"];
 
 
 function logMeIn(){
