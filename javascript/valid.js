@@ -11,11 +11,9 @@ var password = document.forms['form']['password'];
 
 function logMeIn(){
 	alert('this is')
+	return true
 }
 
-function emailVerify() {
-	alert('this is' + email)
-}
 
 
 //function validated(){
