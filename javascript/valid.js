@@ -9,7 +9,7 @@ var pass_error = document.getElementById('pass_error');
 email.addEventListener('textInput', emailVerify());
 password.addEventListener('textInput', passVerify());
 
-function logMeIn(logWhoIn){
+function logMeIn(){
 	alert("this is" + email)
 }
 
