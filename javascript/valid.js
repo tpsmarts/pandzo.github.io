@@ -10,8 +10,7 @@ email.addEventListener('textInput', emailVerify());
 password.addEventListener('textInput', passVerify());
 
 function logMeIn(logWhoIn){
-
-
+	alert("this is" + email)
 }
 
 function emailVerify() {
