@@ -9,8 +9,8 @@ function logMeIn(){
 	let email_error = document.getElementById('email_error');
 	let pass_error = document.getElementById('pass_error');
 
-	email.addEventListener('textInput', emailVerify());
-	password.addEventListener('textInput', passVerify());
+	//email.addEventListener('textInput', emailVerify());
+	//password.addEventListener('textInput', passVerify());
 
 	alert('this is ' + email)
 	return false;
