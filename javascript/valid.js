@@ -9,7 +9,7 @@ function logMeIn(){
 	let email_error = document.getElementById('email_error');
 	let pass_error = document.getElementById('pass_error');
 
-	//email.addEventListener('textInput', emailVerify());
+	email.addEventListener('textInput', emailVerify());
 	//password.addEventListener('textInput', passVerify());
 
 	alert('this is ' + email)
@@ -33,12 +33,14 @@ function logMeIn(){
 
 
 //function email_Verify(){
-//	if (email.value.length >= 8) {
-//		email.style.border = "1px solid silver";
-//		email_error.style.display = "none";
-//		return true;
-//	}
-//}
+	if (email.value.length >= 8) {
+		email.style.border = "1px solid silver";
+		email_error.style.display = "none";
+		return true;
+	}
+}
+
+
 //function pass_Verify(){
 //	if (password.value.length >= 5) {
 //		password.style.border = "1px solid silver";
