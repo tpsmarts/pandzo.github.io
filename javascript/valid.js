@@ -32,7 +32,7 @@ function logMeIn(){
 //}
 
 
-//function email_Verify(){
+function email_Verify(){
 	if (email.value.length >= 8) {
 		email.style.border = "1px solid silver";
 		email_error.style.display = "none";
