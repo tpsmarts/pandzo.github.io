@@ -3,29 +3,18 @@
 
 function logMeIn(){
 	let email = document.forms["form"]["email"].value;
+	//Validtion Code For Inputs
+	let password = document.forms['form']['password'];
+
+	let email_error = document.getElementById('email_error');
+	let pass_error = document.getElementById('pass_error');
+
+	email.addEventListener('textInput', emailVerify());
+	password.addEventListener('textInput', passVerify());
+
 	alert('this is ' + email)
 	return false;
 }
-
-
-
-
-
-
-
-
-//Validtion Code For Inputs
-
-
-//let password = document.forms['form']['password'];
-
-//var email_error = document.getElementById('email_error');
-//var pass_error = document.getElementById('pass_error');
-
-//email.addEventListener('textInput', emailVerify());
-//password.addEventListener('textInput', passVerify());
-
-
 //function validated(){
 //	if (email.value.length < 9) {
 //		email.style.border = "1px solid red";
@@ -57,4 +46,3 @@ function logMeIn(){
 //		return true;
 //	}
 //}
-
